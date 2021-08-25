@@ -1,0 +1,15 @@
+# Build results
+bin
+obj
+
+#include nuget executable
+!NuGet.exe
+
+#nuget packages directory
+packages
+
+#include package target files which may be required for msbuild
+!packages/*.targets
+
+# Click-Once directory
+publish/
